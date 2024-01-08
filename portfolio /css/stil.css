@@ -1,0 +1,269 @@
+@media(min-width: 600px) {
+
+    body{max-width: 1200px;
+        margin: auto;}
+
+body {
+    background-color:#DCDDE5; 
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+} 
+
+h1{
+    color:#101FD8;   
+    font-size: 75px;
+    font-family: league ;
+    margin: 20px;
+}
+
+h2{
+    color:#101FD8;   
+    font-size: 40px;
+    margin: 20px;
+   
+}
+
+h3{
+    color:#101FD8;   
+    font-size: 20px;
+    margin: 20px;
+   
+}
+
+h4{
+    color: #DCDDE5;
+    font-size: 20px; 
+    margin: 20px; 
+}
+
+
+h5{
+    color:#8387CC;   
+    font-size: 20px; 
+    margin: 20px;
+} 
+
+h6{
+    color:#000000;
+    font-size: 20px;  
+    margin: 20px;
+}
+
+a{
+    position: center;
+    font-size: 20px;
+    padding: 15px;
+    padding-top: 1px;
+    color: #101FD8;
+    text-decoration: none; 
+    font-family:"league";
+}
+
+
+p{
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+#web{
+    display: block;
+    padding-top: 60px;
+    margin-top: 80px;
+}
+
+#animasjon {
+    display: block;
+    padding-top: 60px;
+    margin-top: 80px;
+
+}
+
+#ux{
+    padding-left:50px ;
+}
+
+#overskrift {
+    padding-top: -50;
+    margin: 20px;
+}
+
+#kolonne1{
+    margin-top: 5px;
+    padding: -10px;
+}
+
+#logo {
+    background-image: url(/img/logo1.png);
+    aspect-ratio: 1/1;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    width: 10%;
+    padding-top: 60px;
+    margin-top: 25px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+#instagram_logo1 {
+    background-image: url(/img/instagram.png);
+    aspect-ratio: 1/1;
+    background-size:20px;
+    background-repeat: no-repeat;
+    width: 10%;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: 250px;
+    justify-content: flex-end;
+}
+
+#linkedin_logo1 {
+    background-image: url(/img/linkedin.png);
+    aspect-ratio: 1/1;
+    background-size:20px;
+    background-repeat: no-repeat;
+    width: 10%;
+    padding: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+
+
+
+#nav_standard {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px;
+  }
+
+#nav_stand {
+    display: flex;
+    padding: 2px;
+    color:#101FD8;   
+    font-size: 40px;
+    text-decoration: none;
+
+  }
+
+  #nav_standmeny{
+    justify-content: flex-end;
+    padding: 10px;
+    margin-top: 45px;
+    margin-left: 500px;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 30px;
+  }
+  
+
+  footer {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+ }
+
+ .blue {
+    background-color:#101FD8;
+ }
+
+ .hvit {
+    background-color:#DCDDE5;
+ }
+
+ .bukett {
+    width: 30px;
+    position: center;
+    padding: -30;
+ }
+
+ .blomstforside {
+    position: left;
+    background-size: cover;
+    position:relative;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 90px;
+    margin-left: 280px;
+ }
+
+
+.pic2{
+    width: 100%;
+    position: center;
+    margin-left: 5%;
+    margin-top: -62%;
+    size: 70px;
+   
+}
+
+.pic3{
+    width: 100%;
+    margin-left: -3px;
+    margin-top: 30px;
+    size: 150px;  
+
+}
+
+.pic4{
+    width: 20%;
+    margin-left: 650px;
+    margin-top: -150px;
+    size: 50px;  
+
+}
+
+.pic8 {
+    width: 250px;
+    position: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    size: 150px; 
+}
+.pic9 {
+    width: 500px;
+    position: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    size: 300px; 
+
+}
+.pic10 {
+    width: 800px;
+    position: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    size: 300px; 
+
+}
+
+#ommeg{
+    font-size:30px ;
+    margin-left: 40px; 
+}
+#porto{
+    margin-top: 50px;
+    padding-top: 40px;
+}
+
+#footertext {
+   color:  #DCDDE5;
+}
+
+@font-face {
+    font-family: league;
+    src: url(/fonts/LeagueSpartan-VariableFont_wght.woff2);
+}
+
+}
